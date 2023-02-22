@@ -1,5 +1,4 @@
 import time;
-
 def countdown(time_sec): #def is used to define a function
   while time_sec:
     mins,secs = divmod(time_sec, 60);  
