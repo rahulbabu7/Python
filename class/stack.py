@@ -6,21 +6,22 @@ class Stack:
         self.stack.append(item)
 
     def pop(self):
-        if not self.is_empty():
-            return self.stack.pop()
-        else:
+        if len(self.stack) == 0:
             print("Stack is empty.")
+        else:
+            return self.stack.pop()
 
     def display(self):
-        if not self.is_empty():
+        if len(self.stack) == 0:
+            print("Stack is empty.")
+        else:
+            
             print("Stack elements:")
             for item in reversed(self.stack):
                 print(item)
-        else:
-            print("Stack is empty.")
 
-    def is_empty(self):
-        return len(self.stack) == 0
+    # def is_empty(self):
+    #     return len(self.stack) == 0
 
 
 # Example usage
