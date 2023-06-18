@@ -15,7 +15,6 @@ class Stack:
         if len(self.stack) == 0:
             print("Stack is empty.")
         else:
-            
             print("Stack elements:")
             for item in reversed(self.stack):
                 print(item)
