@@ -1,3 +1,3 @@
-fp = open("rahul1.txt",'w')
-fp.write("hii")
+fp = open("rahul1.txt",'a')
+fp.write("\nhii")
 fp.close()
