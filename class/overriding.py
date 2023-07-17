@@ -21,6 +21,6 @@ trainee=Trainee()
 trainee.WorkingHrs()
 trainee.printHrs()
 
-# Reset Trainee Hrs
+
 trainee.resetHrs()
 trainee.printHrs()
