@@ -1,16 +1,16 @@
-value = input("Enter the str")
-small = value.lower()
-new = ""
-vowels = 'a','e','i','o','u'
+# value = input("Enter the str")
+# small = value.lower()
+# new = ""
+# vowels = 'a','e','i','o','u'
 
-for i in small:
+# for i in small:
         
-        if i not in vowels:
-                new = new+i
+#         if i not in vowels:
+#                 new = new+i
          
 
     
-print(new)
+# print(new)
 
 value = input("Enter the string: ")
 small = value.lower()
