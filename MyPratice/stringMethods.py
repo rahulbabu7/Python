@@ -11,3 +11,7 @@ print(exampleString.find('g'));
 #replace a string
 
 print(exampleString.replace('great','awesome'))  #case sensitive
+
+
+#checking a string in the variable
+print("Python" in exampleString)    
